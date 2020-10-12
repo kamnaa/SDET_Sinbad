@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul_Australia</name>
+   <tag></tag>
+   <elementGuidId>668d69e3-7313-4be0-9f10-26383abd6a08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.chosen-container.chosen-container-single.chosen-with-drop.chosen-container-active > div.chosen-drop > ul.chosen-results</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='visa']/div/div/form/div/div/div[2]/div/div[2]/div/div/ul</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chosen-results</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Australia</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;visa&quot;)/div[@class=&quot;tab-inner menu-horizontal-content&quot;]/div[@class=&quot;form-search-main-01&quot;]/form[1]/div[@class=&quot;form-inner&quot;]/div[@class=&quot;row gap-10 mb-20 align-items-end row-reverse&quot;]/div[@class=&quot;col-lg-4 col-sm-12 col-xs-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-icon-left&quot;]/div[@class=&quot;chosen-container chosen-container-single chosen-with-drop chosen-container-active&quot;]/div[@class=&quot;chosen-drop&quot;]/ul[@class=&quot;chosen-results&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='visa']/div/div/form/div/div/div[2]/div/div[2]/div/div/ul</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aruba'])[2]/following::ul[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To Country'])[1]/following::ul[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div[2]/div/div[2]/div/div/ul</value>
+   </webElementXpaths>
+</WebElementEntity>

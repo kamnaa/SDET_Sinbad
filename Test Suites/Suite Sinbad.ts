@@ -18,21 +18,27 @@
       <testCaseId>Test Cases/TC001_Navigate_To_URL</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a24d6cb8-fe54-416a-855b-e5566f3dae13</guid>
+      <guid>f76a825c-d348-4239-9b98-dc94ea933d23</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC002_Search_Hotel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>98f9f4ca-1878-4db5-abaf-6c0d1272bbdc</guid>
+      <guid>6bd453f3-4847-47eb-be33-99caa9b7ad50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC003_Order_Hotel</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fd0ef165-3f4f-4ad7-9556-ff1dfd210b46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC004_Check_Detail_Hotel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3eec32c3-8728-4588-91fb-95f01e17692b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC005_Book_As_Guest</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

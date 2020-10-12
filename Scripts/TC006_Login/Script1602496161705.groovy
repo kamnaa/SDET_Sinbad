@@ -15,20 +15,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Book_As_Guest/Txt_First_Name'), 'Kamna')
+/*WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Book_As_Guest/Txt_Last_Name'), 'Siahaan')
+WebUI.navigateToUrl('https://www.phptravels.net/')*/
 
-WebUI.setText(findTestObject('Book_As_Guest/Txt_Email'), 'nataliakamna13@gmail.com')
+WebUI.click(findTestObject('Object Repository/Login/Page_PHPTRAVELS  Travel Technology Partner/a_My Account'))
 
-WebUI.setText(findTestObject('Book_As_Guest/Txt_Confirm'), 'nataliakamna13@gmail.com')
+WebUI.click(findTestObject('Object Repository/Login/Page_PHPTRAVELS  Travel Technology Partner/a_Login'))
 
-WebUI.setText(findTestObject('Book_As_Guest/Txt_Contact_Number'), '081265653197')
+WebUI.click(findTestObject('Object Repository/Login/Page_Login/span_Email'))
 
-WebUI.setText(findTestObject('Book_As_Guest/Txt_Address'), 'Jl Selambo Indah No 3 ')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Login/input_Login_username'), 'user@phptravels.com')
 
-WebUI.setText(findTestObject('Book_As_Guest/a_Select Country'), 'Afghanistan')
+WebUI.click(findTestObject('Object Repository/Login/Page_Login/span_Password'))
 
-WebUI.click(findTestObject('Book_As_Guest/button_CONFIRM THIS BOOKING'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Login/input_Email_password'), '6weEYLVRi3+STmppai9GiQ==')
+
+WebUI.click(findTestObject('Object Repository/Login/Page_Login/label_Remember Me'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_Login/button_Login'))
 

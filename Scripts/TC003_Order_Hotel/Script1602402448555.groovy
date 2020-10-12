@@ -21,7 +21,7 @@ WebUI.scrollToElement(findTestObject('Filter_By_Most_Expensive/Btn_Search'), 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Filter_By_Most_Expensive/Rb_HighToLow'))
+/*WebUI.click(findTestObject('Filter_By_Most_Expensive/Rb_HighToLow'))*/
 
 WebUI.delay(4)
 

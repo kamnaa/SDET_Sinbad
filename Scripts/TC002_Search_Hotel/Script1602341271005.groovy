@@ -21,8 +21,7 @@ WebUI.click(findTestObject('Search_Hotel/Txt_Destination'), FailureHandling.STOP
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Search_Hotel/input__select2-input select2-focused'), 
-    'Istanbul')
+WebUI.setText(findTestObject('Search_Hotel/input__select2-input select2-focused'), 'Istanbul')
 
 WebUI.delay(3)
 
